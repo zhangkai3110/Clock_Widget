@@ -26,7 +26,7 @@ The application is created using the `SwiftUI` framework, and adheres to the `ti
 
 # Components
 
-Each of the components comprisiing the clock are detailed below, edit each parameter to change the appearance of the clock.
+Each of the components comprising the clock are detailed below, edit each parameter to change the appearance of the clock.
 
 <br />
 
