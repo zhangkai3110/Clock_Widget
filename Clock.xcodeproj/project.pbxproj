@@ -11,7 +11,40 @@
 		0232ADC6297C676C0042D2FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232ADC5297C676C0042D2FB /* ContentView.swift */; };
 		0232ADC8297C67740042D2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0232ADC7297C67740042D2FB /* Assets.xcassets */; };
 		0232ADCB297C67740042D2FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0232ADCA297C67740042D2FB /* Preview Assets.xcassets */; };
+		0232ADD8297C67AD0042D2FB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0232ADD7297C67AD0042D2FB /* WidgetKit.framework */; };
+		0232ADDA297C67AD0042D2FB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0232ADD9297C67AD0042D2FB /* SwiftUI.framework */; };
+		0232ADDD297C67AD0042D2FB /* ClockWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232ADDC297C67AD0042D2FB /* ClockWidgetBundle.swift */; };
+		0232ADDF297C67AD0042D2FB /* ClockWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232ADDE297C67AD0042D2FB /* ClockWidgetLiveActivity.swift */; };
+		0232ADE1297C67AD0042D2FB /* ClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0232ADE0297C67AD0042D2FB /* ClockWidget.swift */; };
+		0232ADE4297C67DA0042D2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0232ADE3297C67DA0042D2FB /* Assets.xcassets */; };
+		0232ADE6297C67DA0042D2FB /* ClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0232ADE2297C67AE0042D2FB /* ClockWidget.intentdefinition */; };
+		0232ADE7297C67DA0042D2FB /* ClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0232ADE2297C67AE0042D2FB /* ClockWidget.intentdefinition */; };
+		0232ADEA297C67DA0042D2FB /* ClockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0232ADD5297C67AD0042D2FB /* ClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0232ADE8297C67DA0042D2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0232ADB8297C676C0042D2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0232ADD4297C67AD0042D2FB;
+			remoteInfo = ClockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0232ADEE297C67DB0042D2FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0232ADEA297C67DA0042D2FB /* ClockWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0232ADC0297C676C0042D2FB /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,15 @@
 		0232ADC5297C676C0042D2FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0232ADC7297C67740042D2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0232ADCA297C67740042D2FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0232ADD5297C67AD0042D2FB /* ClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0232ADD7297C67AD0042D2FB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0232ADD9297C67AD0042D2FB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0232ADDC297C67AD0042D2FB /* ClockWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidgetBundle.swift; sourceTree = "<group>"; };
+		0232ADDE297C67AD0042D2FB /* ClockWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		0232ADE0297C67AD0042D2FB /* ClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidget.swift; sourceTree = "<group>"; };
+		0232ADE2297C67AE0042D2FB /* ClockWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ClockWidget.intentdefinition; sourceTree = "<group>"; };
+		0232ADE3297C67DA0042D2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0232ADE5297C67DA0042D2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0232ADD2297C67AD0042D2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0232ADDA297C67AD0042D2FB /* SwiftUI.framework in Frameworks */,
+				0232ADD8297C67AD0042D2FB /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				0232ADC2297C676C0042D2FB /* Clock */,
+				0232ADDB297C67AD0042D2FB /* ClockWidget */,
+				0232ADD6297C67AD0042D2FB /* Frameworks */,
 				0232ADC1297C676C0042D2FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0232ADC0297C676C0042D2FB /* Clock.app */,
+				0232ADD5297C67AD0042D2FB /* ClockWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +121,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0232ADD6297C67AD0042D2FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0232ADD7297C67AD0042D2FB /* WidgetKit.framework */,
+				0232ADD9297C67AD0042D2FB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0232ADDB297C67AD0042D2FB /* ClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0232ADDC297C67AD0042D2FB /* ClockWidgetBundle.swift */,
+				0232ADDE297C67AD0042D2FB /* ClockWidgetLiveActivity.swift */,
+				0232ADE0297C67AD0042D2FB /* ClockWidget.swift */,
+				0232ADE2297C67AE0042D2FB /* ClockWidget.intentdefinition */,
+				0232ADE3297C67DA0042D2FB /* Assets.xcassets */,
+				0232ADE5297C67DA0042D2FB /* Info.plist */,
+			);
+			path = ClockWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +153,34 @@
 				0232ADBC297C676C0042D2FB /* Sources */,
 				0232ADBD297C676C0042D2FB /* Frameworks */,
 				0232ADBE297C676C0042D2FB /* Resources */,
+				0232ADEE297C67DB0042D2FB /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0232ADE9297C67DA0042D2FB /* PBXTargetDependency */,
 			);
 			name = Clock;
 			productName = Clock;
 			productReference = 0232ADC0297C676C0042D2FB /* Clock.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0232ADD4297C67AD0042D2FB /* ClockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0232ADEB297C67DB0042D2FB /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */;
+			buildPhases = (
+				0232ADD1297C67AD0042D2FB /* Sources */,
+				0232ADD2297C67AD0042D2FB /* Frameworks */,
+				0232ADD3297C67AD0042D2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockWidgetExtension;
+			productName = ClockWidgetExtension;
+			productReference = 0232ADD5297C67AD0042D2FB /* ClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +193,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					0232ADBF297C676C0042D2FB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0232ADD4297C67AD0042D2FB = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				0232ADBF297C676C0042D2FB /* Clock */,
+				0232ADD4297C67AD0042D2FB /* ClockWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +229,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0232ADD3297C67AD0042D2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0232ADE4297C67DA0042D2FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +245,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				0232ADC6297C676C0042D2FB /* ContentView.swift in Sources */,
+				0232ADE7297C67DA0042D2FB /* ClockWidget.intentdefinition in Sources */,
 				0232ADC4297C676C0042D2FB /* ClockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0232ADD1297C67AD0042D2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0232ADDD297C67AD0042D2FB /* ClockWidgetBundle.swift in Sources */,
+				0232ADE6297C67DA0042D2FB /* ClockWidget.intentdefinition in Sources */,
+				0232ADDF297C67AD0042D2FB /* ClockWidgetLiveActivity.swift in Sources */,
+				0232ADE1297C67AD0042D2FB /* ClockWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0232ADE9297C67DA0042D2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0232ADD4297C67AD0042D2FB /* ClockWidgetExtension */;
+			targetProxy = 0232ADE8297C67DA0042D2FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0232ADCC297C67740042D2FB /* Debug */ = {
@@ -262,6 +389,7 @@
 		0232ADCF297C67740042D2FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +419,7 @@
 		0232ADD0297C67740042D2FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +446,60 @@
 			};
 			name = Release;
 		};
+		0232ADEC297C67DB0042D2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JPCJ237NQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qb.Clock.ClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0232ADED297C67DB0042D2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JPCJ237NQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qb.Clock.ClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +517,15 @@
 			buildConfigurations = (
 				0232ADCF297C67740042D2FB /* Debug */,
 				0232ADD0297C67740042D2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0232ADEB297C67DB0042D2FB /* Build configuration list for PBXNativeTarget "ClockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0232ADEC297C67DB0042D2FB /* Debug */,
+				0232ADED297C67DB0042D2FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
